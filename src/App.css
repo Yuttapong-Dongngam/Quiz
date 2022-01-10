@@ -1,38 +1,87 @@
-.App {
-  text-align: center;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+td,
+th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+tr:nth-child(even) {
+  background-color: #dddddd;
+}
+.container {
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+  width: 100%;
+}
+.box1 {
+  background-color: rgb(243, 128, 51);
+  width: 30%;
+  padding: 10px;
+}
+.box2 {
+  background-color: grey;
+  width: 70%;
+  padding: 10px;
+}
+
+.box1-detail {
+  display: flex;
+  justify-content: space-between;
+}
+.text-white {
   color: white;
 }
-
-.App-link {
-  color: #61dafb;
+.text-center {
+  color: white;
+  text-align: center;
+}
+.tb-head{
+  color: white;
+    background-color: grey;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.flex {
+  justify-content: space-between;
+  display: flex;
+}
+
+.smi {
+
+  font-size: 30px;
+
+}
+
+.mr {
+ 
+  font-size: 20px;
+}
+
+.menu {
+  
+ font-size: 20px;
+}
+
+.mem {
+color: rgb(243, 128, 51);
+font-size: 30px;
+}
+
+.yea {
+  color: rgb(243, 128, 51);
+  font-size: 25px;
+}
+
+.jan {
+  color: rgb(243, 128, 51);
 }
